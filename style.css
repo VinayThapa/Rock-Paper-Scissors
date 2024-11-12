@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+h1 {
+    background: black;
+    color: white;
+    height: 5rem;
+    line-height: 5rem;
+}
+
+.choices {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px ;
+    gap: 2rem;
+
+}
+
+.choice {
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+#rock {
+    background: rgba(0, 128, 0, 0.6);
+    border: none;
+    cursor: pointer;
+}
+
+#rock:hover {
+    border: 2px solid green;
+    background-color: rgba(0, 128, 0, 0.3);
+}
+
+#paper {
+    background: rgba(137, 43, 226, 0.6);
+    border: none;
+    cursor: pointer;
+}
+
+#paper:hover {
+    border: 2px solid blueviolet;
+    background-color: rgba(137, 43, 226, 0.3);
+}
+
+#scissors {
+    background: rgba(255, 0, 0, 0.6);
+    border: none;
+    cursor: pointer;
+}
+
+#scissors:hover {
+    border: 2px solid red;
+    background-color: rgba(255, 0, 0, 0.3);
+}
+
+.score-board {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#user-score, #comp-score  {
+    font-size: 4rem;
+}
+
+.msg-container {
+    margin-top: 5rem;
+}
+
+#msg {
+    display: inline;
+    background-color: black;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: white;
+    font-size: 2rem;
+}
